@@ -6,7 +6,18 @@ namespace csharp_mosh_advanced
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var execute = new PhotoProcessor();
+            var filters = new PhotoFilters();
+            Action<Photo> filterHandler = filters.ApplyBrightness;
+            filterHandler += filters.ApplyContrast;
+            filterHandler += RemoveRedEyeFilter;
+
+            execute.Process("photo.jpg", filterHandler);
+        }
+
+        static void RemoveRedEyeFilter(Photo photo)
+        {
+            System.Console.WriteLine("Applying Remove Red Eye...");
         }
     }
 }
