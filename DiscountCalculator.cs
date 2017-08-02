@@ -1,7 +1,7 @@
 ﻿namespace csharp_mosh_advanced
 {
     // where T : Product
-    public class DiscountCalculator<TProduct> where TProduct : TProduct
+    public class DiscountCalculator<TProduct> where TProduct : Product
     {
         public float CalculateDiscount(TProduct product)
         {
