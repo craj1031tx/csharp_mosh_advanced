@@ -7042,10 +7042,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\chetan raj\\documents\\visual studio 2017\\Projects\\csharp_mosh_advanced\\csharp_mosh_advanced\\csharp_mosh_advanced.csproj",
+      "projectUniqueName": "C:\\Users\\Chetan Raj\\documents\\visual studio 2017\\Projects\\csharp_mosh_advanced\\csharp_mosh_advanced\\csharp_mosh_advanced.csproj",
       "projectName": "csharp_mosh_advanced",
-      "projectPath": "c:\\users\\chetan raj\\documents\\visual studio 2017\\Projects\\csharp_mosh_advanced\\csharp_mosh_advanced\\csharp_mosh_advanced.csproj",
-      "outputPath": "c:\\users\\chetan raj\\documents\\visual studio 2017\\Projects\\csharp_mosh_advanced\\csharp_mosh_advanced\\obj\\",
+      "projectPath": "C:\\Users\\Chetan Raj\\documents\\visual studio 2017\\Projects\\csharp_mosh_advanced\\csharp_mosh_advanced\\csharp_mosh_advanced.csproj",
+      "outputPath": "C:\\Users\\Chetan Raj\\documents\\visual studio 2017\\Projects\\csharp_mosh_advanced\\csharp_mosh_advanced\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
